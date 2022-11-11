@@ -1,0 +1,39 @@
+
+modLoader="javafml"
+
+loaderVersion="[40,)"
+
+license="MIT"
+
+[[mods]] #mandatory
+
+modId="simplelightsabers" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Simple Lightsabers "
+logoFile="examplemod.png"
+credits="Simple Lightsabers by Froge, CatTanker and 3 Monkeys" #optional
+# A text field displayed in the mod UI
+authors="FrogeDev, CatTanker, 3Monkeys" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+
+This mod aims to add intuitive and simple lightsabers to minecraft, alongside other features, using the bettercombat mod by icarus for animations etc
+
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.simplelightsabers]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[40,)" 
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"

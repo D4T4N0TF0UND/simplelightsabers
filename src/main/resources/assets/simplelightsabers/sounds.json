@@ -1,0 +1,9 @@
+{
+	"lightsaber_swing":
+	{
+		"subtitle":"entity.common.lightsaberswing",
+		"sounds": [
+			"simplelightsabers:lightsaberswing"
+		]
+	}
+}
