@@ -18,8 +18,11 @@ public class ItemInit {
 	public static final RegistryObject<Item> KYBER_CRYSTAL = register("kyber_crystal",
 			() -> new KyberCrystal(new Item.Properties().tab(SimpleLightsabers.LIGHTSABERS_TAB).rarity(Rarity.EPIC).fireResistant()));
 	
-	public static final RegistryObject<Item> LIGHTSABER = register("lightsaber", 
-			() -> new SwordItem(SaberTiers.SINGLEBLADE, 9, -2.0F, new Item.Properties().tab(SimpleLightsabers.LIGHTSABERS_TAB).rarity(Rarity.EPIC).fireResistant()));
+	public static final RegistryObject<Item> KENOBI_SABER_BLUE = register("kenobi_saber_blue", 
+			() -> new SwordItem(SaberTiers.SINGLEBLADE, 9, -2.2F, new Item.Properties().tab(SimpleLightsabers.LIGHTSABERS_TAB).rarity(Rarity.EPIC).fireResistant()));
+	
+	public static final RegistryObject<Item> KENOBI_SABER_RED = register("kenobi_saber_red", 
+			() -> new SwordItem(SaberTiers.SINGLEBLADE, 9, -2.2F, new Item.Properties().tab(SimpleLightsabers.LIGHTSABERS_TAB).rarity(Rarity.EPIC).fireResistant()));
 	
 	private static <T extends Item> RegistryObject<T> register(final String name, final Supplier<T> item) {
 		return ITEMS.register(name,  item);

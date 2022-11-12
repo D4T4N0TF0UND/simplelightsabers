@@ -20,7 +20,7 @@ public class WeaponCapabilityInit {
 	public static final Function<Item, CapabilityItem.Builder> LIGHTSABER = (item) -> WeaponCapability.builder()
 			.category(CapabilityItem.WeaponCategories.SWORD)
 			.styleProvider((playerpatch) -> playerpatch.getHoldingItemCapability(InteractionHand.OFF_HAND).getWeaponCategory() == CapabilityItem.WeaponCategories.SWORD ? CapabilityItem.Styles.TWO_HAND : CapabilityItem.Styles.ONE_HAND)
-			.collider(ColliderPreset.SWORD)
+			.collider(ColliderPreset.LONGSWORD)
 			.hitSound(EpicFightSounds.BLADE_HIT)
 			.swingSound(SoundInit.LIGHTSABER_SWING.get())
 			.newStyleCombo(CapabilityItem.Styles.ONE_HAND, Animations.SWORD_AUTO1, Animations.SWORD_AUTO2, Animations.SWORD_AUTO3, Animations.SWORD_DASH, Animations.SWORD_AIR_SLASH)

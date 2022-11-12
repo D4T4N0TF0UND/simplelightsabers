@@ -1,4 +1,6 @@
 {
 	"item.simplelightsabers.kyber_crystal": "Kyber Crystal",
-	"item.simplelightsabers.lightsaber": "Lightsaber"
+	"item.simplelightsabers.kenobi_saber_blue": "Lightsaber",
+	"item.simplelightsabers.kenobi_saber_red": "Lightsaber",
+	"itemGroup.simplelightsabers": "Simple Lightsabers"
 }

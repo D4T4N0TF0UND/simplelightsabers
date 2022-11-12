@@ -8,6 +8,6 @@ import net.minecraftforge.common.ForgeTier;
 
 public class SaberTiers {
 	
-	public static final ForgeTier SINGLEBLADE = new ForgeTier(4, 3000, 0.8F, 3F, 0, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ItemInit.KYBER_CRYSTAL.get()));
+	public static final ForgeTier SINGLEBLADE = new ForgeTier(4, 3000, 0.8F, 0F, 0, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ItemInit.KYBER_CRYSTAL.get()));
 
 }

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "simplelightsabers:item/hilt",
-		"1": "simplelightsabers:item/blade_blue",
-		"2": "simplelightsabers:item/blade_blue_outer",
+		"1": "simplelightsabers:item/blade_inner",
+		"2": "simplelightsabers:item/blade_red_outer",
 		"particle": "simplelightsabers:item/hilt"
 	},
 	"elements": [
